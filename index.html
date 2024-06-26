@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--Indica la codificación de caracteres a utlizar - Universal-->  
+	<meta charset="UTF-8">	
+	<meta name="descripción" content="Interfaces Responsivas">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<title>EPS Vida</title>
+	
+</head>
+
+<body>
+	<div id="contenedor">
+		<header id="encabezado">
+			<h1><center>CITRAMED</center></h1>
+		</header>
+
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="index.html#">Inicio</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+	      <div class="collapse navbar-collapse" id="navbarsExample03">
+	        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+	          <li class="nav-item">
+	            <a class="nav-link" aria-current="page" href="RegUsuarios.html">Usuarios</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="RegPaciente.html">Pacientes</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Citas</a>
+	          </li>
+	          <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Médicos</a>
+	            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+					<li><a class="dropdown-item" href="RegCitas.html">Registrar Usuario</a></li>
+	              <li><a class="dropdown-item" href="RegUsuarios.html">Registrar Usuario</a></li>
+				  <li><a class="dropdown-item" href="RegMedico.html">Registrar Médico</a></li>
+	              <li><a class="dropdown-item" href="ModMedico.html">Modificar Médico</a></li>
+	              <li><a class="dropdown-item" href="ConsultMedico.html">Consultar Médico</a></li>
+	            </ul>
+	          </li>
+	        </ul>
+	        <form>
+	          <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
+	        </form>
+	      </div>
+	    </div>
+	  </nav>
+
+		<!--Area de Contenido Específica de la Página o Aplicación-->
+		<center><h2>Quiénes Somos</h2></center>
+
+		<p> CITRAMED es un consultorio médico que brinda a sus usuarios la atencion médica de profesionales altamente capacitados en los diferentes campos salud, contamos con un amplio reconomiento en el sector salud y nos enfocamos en el mejoramiento continuo para brindar a nuestros usuarios la mejor experiencia. </p>
+
+		<center><h2>Nuestros Servicios</h2></center>
+
+		<p> en CITRAMED contamos con una plataforma virtual que le permite a los usuarios asignar y cancelar citas medicas. contamos con un laboratorio propio que nos permite brindar una mejor atencion a nuestros usuarios. </p>
+
+	</div>
+	    
+	  <footer id="pie">
+       	<center><h3>CITRAMED - Av. los comuneros - Antioquia - Colombia<h3></center>	
+      </footer>
+
+	<!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- Todos los plugins JavaScript de Bootstrap (también se pueden incluir archivos JavaScript individuales de los únicos plugins que se utilicen)-->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
